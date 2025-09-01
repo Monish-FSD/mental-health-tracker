@@ -8,35 +8,55 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 180 20% 98%;
+    --foreground: 210 20% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 180 20% 99%;
+    --card-foreground: 210 20% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 180 20% 99%;
+    --popover-foreground: 210 20% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 195 85% 45%;
+    --primary-foreground: 180 20% 99%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 150 40% 92%;
+    --secondary-foreground: 210 20% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 170 30% 94%;
+    --muted-foreground: 210 15% 55%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 165 60% 88%;
+    --accent-foreground: 210 20% 25%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 180 20% 99%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 170 25% 88%;
+    --input: 170 25% 88%;
+    --ring: 195 85% 45%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+    
+    /* Mental health specific colors */
+    --calm: 195 85% 45%;
+    --calm-foreground: 180 20% 99%;
+    --peaceful: 150 40% 92%;
+    --peaceful-foreground: 210 20% 25%;
+    --zen: 165 60% 88%;
+    --zen-foreground: 210 20% 25%;
+    --success: 140 65% 45%;
+    --warning: 45 90% 55%;
+    
+    /* Gradients */
+    --gradient-calm: linear-gradient(135deg, hsl(195 85% 45%), hsl(210 85% 50%));
+    --gradient-peaceful: linear-gradient(180deg, hsl(150 40% 95%), hsl(180 20% 98%));
+    --gradient-zen: linear-gradient(45deg, hsl(165 60% 88%), hsl(180 40% 92%));
+    
+    /* Shadows */
+    --shadow-soft: 0 2px 10px hsl(195 85% 45% / 0.1);
+    --shadow-gentle: 0 4px 20px hsl(195 85% 45% / 0.15);
+    --shadow-floating: 0 10px 30px hsl(195 85% 45% / 0.2);
 
     --sidebar-background: 0 0% 98%;
 
